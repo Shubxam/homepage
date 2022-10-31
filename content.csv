@@ -1,28 +1,22 @@
-github,        www.github.com,                        dev
-stack,         stackoverflow.com,                     dev
-blank,,
-blank,,
-archlinux,     wiki.archlinux.org,                    dev
-fish,          fishshell.com,                         dev
 
-gmail,         mail.google.com,                       personal
-drive,         drive.google.com,                      personal
-calendar,      calendar.google.com,                   personal
-blank,,
-discord,       discord.com/channels/@me,              social
-whatsapp,      web.whatsapp.com,                      social
 
-mystudies,     www.lehrbetrieb.ethz.ch/myStudies,     uni
-mail,          mail.ethz.ch,                          uni
-gitlab,        gitlab.inf.ethz.ch,                    uni
-notes,         lenoxos.github.io/ETHAN,               uni
-wolframα,      www.wolframalpha.com,
-wikipedia,     www.wikipedia.org,
+Feedly, feedly.com, Readings
+Reading List, library.lindylearn.io/, Readings
+IE, IndianExpress.com, Readings
+blank
+Datacamp, app.datacamp.com/learn, Learn
+Khan Academy, khanacademy.org/economics-finance-domain, Learn
 
-reddit,        www.reddit.com,                        entertainment
-twitch,        www.twitch.tv,                         entertainment
-youtube,       www.youtube.com,                       entertainment
-netflix,       www.netflix.com,                       entertainment
-blank,,
-blank,,
+Financial Times,        www.ft.com,                       Finance 
+WSJ,         www.wsj.com,                    Finance 
+Bloomberg, www.bloomberg.com/asia, Finance
+FE, www.FinancialExpress.com, Finance
+AngelList, angel.co, Jobs
+LinkedIn, linkedin.com, Jobs
 
+TechCrunch, 	techcrunch.com, Startups 
+Inc42, inc42.com, Startups
+blank
+blank
+LeetCode, leetcode.com, Practice
+Kaggle, kaggle.com, Practice
