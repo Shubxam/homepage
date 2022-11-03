@@ -2,6 +2,7 @@
 
 [![deploy homepage](https://github.com/shubxam/homepage/actions/workflows/deploy.yml/badge.svg)](https://github.com/shubxam/homepage/actions/workflows/deploy.yml)
 [![pages-build-deployment](https://github.com/shubxam/homepage/actions/workflows/pages/pages-build-deployment/badge.svg)](https://github.com/shubxam/homepage/actions/workflows/pages/pages-build-deployment)
+![GitHub last commit](https://img.shields.io/github/last-commit/shubxam/homepage?style=plastic)
 
 ![Screenshot of HomePage](screenshot.jpg "Screenshot of HomePage")
 
