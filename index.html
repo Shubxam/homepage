@@ -1,0 +1,286 @@
+<html>
+	<head>
+		<style>
+			
+			:root {
+				--fg:		#cdd6f4;
+				--bg:		#1e1e2e;
+			}
+
+			* {
+				all: 		none;
+				color: 		var(--fg);
+				text-align: center;
+			}
+
+			body {
+				background-color: 	var(--bg);
+			}
+
+			.external {
+				display: 	table;
+				position: 	absoulte;
+				top: 		0;
+				left: 		0;
+				height: 	100%;
+				width: 		100%;
+			}
+
+			.middle {
+				display: 		table-cell;
+				vertical-align: middle;
+			}
+
+			.content {
+				margin-left: 			auto;
+				margin-right: 			auto;
+				display: 				grid;
+				grid-template-columns: 	auto auto auto auto auto auto auto auto auto auto;
+				grid-gap:  				15px;
+				justify-content: 		center;
+			}
+
+			.cell {
+				border: 			5px solid var(--fg);
+				padding: 			20px;
+				/* width: 				60px; */
+				/* height:				60px; */
+				transition: 		0.3s;
+				text-decoration: 	none;
+				justify-content:	left;
+			}
+			.cell:hover {
+				background-color: 	var(--fg);
+			}
+
+			.cell.Readings {
+				border: 			5px solid #cba6f7;
+			}
+			.cell.Readings:hover {
+				background-color: 	#cba6f7;
+			}
+
+			.cell.Startups {
+				border: 			5px solid #89b4fa;
+			}
+			.cell.Startups:hover {
+				background-color: 	#89b4fa;
+			}
+
+			.cell.Finance {
+				border: 			5px solid #a6e3a1;
+			}
+			.cell.Finance:hover {
+				background-color: 	#a6e3a1;
+			}
+
+			.cell.Learn {
+				border: 			5px solid #fab387;
+			}
+			.cell.Learn:hover {
+				background-color: 	#fab387;
+			}
+
+			.cell.Jobs {
+				border: 			5px solid #f38ba8;
+			}
+			.cell.Jobs:hover {
+				background-color: 	#f38ba8;
+			}
+
+			.cell.Practice {
+				border: 			5px solid #9cadce;
+			}
+			.cell.Practice:hover {
+				background-color: 	#9cadce;
+			}
+
+			
+
+
+
+
+
+
+
+			.cell:hover * {
+				color: 	var(--bg);
+			}
+
+			.blank {
+				/*width:	110px;*/
+				/* height:	110px; */
+			}
+
+			h1 {
+				margin: 	0px;
+				font-size: 	15px;
+				text-align: left;
+			}
+
+			h2 {
+				margin: 	2px;
+				margin-left: 0px;
+				font-size: 	40px;
+				text-align: left;
+			}
+
+			h3 {
+				margin: 	0px;
+				font-size: 	12px;
+				text-align: left;
+			}
+
+			form {
+				width: 					1691px;
+				border: 				3px solid var(--fg);
+				margin: 				auto;
+				margin-bottom: 			15px;
+				display: 				grid;
+				grid-template-columns: 	auto auto;
+				grid-gap: 				0px;
+				justify-content:		left;
+			}
+
+			input {
+				all: 			unset;
+				margin-left: 	10px;
+				text-align: 	left;
+				font-size: 		22px;
+				width: 			1635px;
+			}
+
+			button {
+				all: 			unset;
+				margin-left: 	5px;
+				font-size: 		30px;
+				width: 			30px;
+			}
+
+			h4 {
+				font-size:	40px;
+			}
+
+		</style>
+		<title>Home</title>
+	</head>
+	<body>
+		<div class="external">
+			<div class="middle">
+				<div>
+				</div>
+				<div class="content">
+					<a class="cell Jobs" href="https://angel.co">
+						<h1>1</h1>
+						<h2>An</h2>
+						<h3>Angellist</h3>
+					</a>
+					<a class="cell Jobs" href="https://linkedin.com">
+						<h1>2</h1>
+						<h2>Li</h2>
+						<h3>Linkedin</h3>
+					</a>
+					<div class="blank">
+					</div>
+					<a class="cell Learn" href="https://app.datacamp.com/learn">
+						<h1>3</h1>
+						<h2>Da</h2>
+						<h3>Datacamp</h3>
+					</a>
+					<a class="cell Learn" href="https://khanacademy.org/economics-finance-domain">
+						<h1>4</h1>
+						<h2>Kh</h2>
+						<h3>Khan Academy</h3>
+					</a>
+					<a class="cell Learn" href="https://zerodha.com/varsity/">
+						<h1>5</h1>
+						<h2>Va</h2>
+						<h3>Varsity</h3>
+					</a>
+					<div class="blank">
+					</div>
+					<a class="cell Practice" href="https://leetcode.com">
+						<h1>6</h1>
+						<h2>Le</h2>
+						<h3>Leetcode</h3>
+					</a>
+					<a class="cell Practice" href="https://kaggle.com">
+						<h1>7</h1>
+						<h2>Ka</h2>
+						<h3>Kaggle</h3>
+					</a>
+					<div class="blank">
+					</div>
+					<a class="cell Jobs" href="https://glassdoor.co.in">
+						<h1>8</h1>
+						<h2>Gl</h2>
+						<h3>Glassdoor</h3>
+					</a>
+					<div class="blank">
+					</div>
+					<a class="cell Readings" href="https://feedly.com">
+						<h1>9</h1>
+						<h2>Fe</h2>
+						<h3>Feedly</h3>
+					</a>
+					<a class="cell Readings" href="https://library.lindylearn.io/">
+						<h1>10</h1>
+						<h2>Re</h2>
+						<h3>Reading List</h3>
+					</a>
+					<a class="cell Readings" href="https://IndianExpress.com">
+						<h1>11</h1>
+						<h2>In</h2>
+						<h3>Indian Express</h3>
+					</a>
+					<div class="blank">
+					</div>
+					<a class="cell Finance " href="https://www.ft.com">
+						<h1>12</h1>
+						<h2>Fi</h2>
+						<h3>Financial Times</h3>
+					</a>
+					<a class="cell Finance " href="https://www.wsj.com">
+						<h1>13</h1>
+						<h2>Th</h2>
+						<h3>The Wall Street Journal</h3>
+					</a>
+					<a class="cell Finance" href="https://www.FinancialExpress.com">
+						<h1>14</h1>
+						<h2>Fi</h2>
+						<h3>Financial Express</h3>
+					</a>
+					<a class="cell Finance" href="https://www.moneycontrol.com">
+						<h1>15</h1>
+						<h2>Mo</h2>
+						<h3>Money Control</h3>
+					</a>
+					<a class="cell Finance" href="https://livemint.com">
+						<h1>16</h1>
+						<h2>Li</h2>
+						<h3>Livemint</h3>
+					</a>
+					<div class="blank">
+					</div>
+					<a class="cell Startups " href="https://techcrunch.com">
+						<h1>17</h1>
+						<h2>Te</h2>
+						<h3>Techcrunch</h3>
+					</a>
+					<a class="cell Startups" href="https://inc42.com">
+						<h1>18</h1>
+						<h2>In</h2>
+						<h3>Inc42</h3>
+					</a>
+					
+
+
+
+
+
+
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
